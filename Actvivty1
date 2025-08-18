@@ -1,0 +1,36 @@
+public class Main {
+  public static void main(String[] args) {
+    int x = 10;
+    int y = 20;
+  
+    if ((x + y) == 25) {
+        System.out.println("Addition = 25");
+    } else {
+        System.out.println("Addition = 30");
+    }  
+    
+    if ((y - x) == 10) {
+        System.out.println("Subtraction = 10");
+    } else {
+        System.out.println("Subtraction = 20");
+    }
+    
+    if ((x * y) == 200) {
+        System.out.println("Multiplication = 200");
+    } else {
+        System.out.println("Multiplication = 100");
+    }
+    
+    if ((x / y) == 1) {
+        System.out.println("Division = 1");
+    } else {
+        System.out.println("Division = 0.5");
+    }
+    
+    if((x % y) == 10) {
+        System.out.println("Modulo = 10");
+    } else {
+        System.out.println("Modulo = 0");
+    } 
+  }
+}
