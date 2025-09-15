@@ -58,7 +58,6 @@ import android.util.Log
 import androidx.compose.runtime.saveable.rememberSaveable
 
 
-//ta
 private const val TAG = "MainActivity"
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
